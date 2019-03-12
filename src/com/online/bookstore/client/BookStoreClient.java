@@ -61,7 +61,7 @@ public class BookStoreClient {
 	        orderDetail1.setQuantity(1);
 	        //Add product to order
 	        order1.addProduct(orderDetail1);
-	        
+
 	        //Second order detail
 	        OrderDetail orderDetail2 = (OrderDetail) context.getBean("orderDetail");
 	        //Second product
